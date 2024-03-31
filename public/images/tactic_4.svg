@@ -1,0 +1,51 @@
+<svg preserveAspectRatio="xMidYMid meet" data-bbox="20.1 54 159.8 92" xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="20.1 54 159.8 92" data-type="color" role="presentation" aria-hidden="true" aria-label="">
+    <g>
+        <path fill="#17453d" d="M179.9 146c-.1-19.4-19.4-35.1-43.2-35.1S93.6 126.6 93.6 146h86.3z" data-color="1" data-darkreader-inline-fill="" style="--darkreader-inline-fill: #cbc6c0;"></path>
+        <path fill="#f09c70" d="M150.5 112.7c-1.8-.5-3.6-.9-5.4-1.2v-9h-16.7v9c-1.8.3-3.7.7-5.4 1.2v.1c0 7.6 6.2 13.8 13.8 13.8s13.7-6.2 13.7-13.9z" data-color="2" data-darkreader-inline-fill="" style="--darkreader-inline-fill: #f09a6d;"></path>
+        <path fill="#754c24" d="M167.2 89.5c2-1.5 3.3-3.9 3.3-6.5 0-3.3-1.9-6.1-4.7-7.4.1-.6.2-1.2.2-1.9 0-3.4-2.1-6.4-5.1-7.6-5.1-7.3-13.6-12.1-23.2-12.1-9.5 0-17.9 4.7-23 11.8-3.3 1-5.7 4.1-5.7 7.8 0 .4 0 .7.1 1.1-3.4 1-5.9 4.1-5.9 7.9 0 2.7 1.3 5 3.3 6.5-3.2 1.1-5.6 4.1-5.6 7.7 0 4.5 3.7 8.2 8.2 8.2 2.4 0 4.6-1 6.1-2.7.9 3.5 4.1 6 7.9 6 3 0 5.6-1.6 7-4 2.5.4 5.1.7 7.8.7s3.3-.2 5.8-.7c1.5 2.5 5.2 4.1 8.3 4 3.1-.2 5.7-2 7-4.5 1.3 1 4 1.5 5.7 1.5 4.5 0 8.2-3.7 8.2-8.2-.1-3.5-2.5-6.6-5.7-7.6z" data-color="3" data-darkreader-inline-fill="" style="--darkreader-inline-fill: #daaf86;"></path>
+        <path opacity=".1" d="M128.4 105.7h16.7v3.7s-3.2 1.2-9.3-.1-7.4-2.8-7.4-2.8v-.8z"></path>
+        <path fill="#f09c70" d="M160.3 86.8h-47.1c-1.8 0-3.3-1.5-3.3-3.3 0-1.8 1.5-3.3 3.3-3.3h47.1c1.8 0 3.3 1.5 3.3 3.3.1 1.8-1.4 3.3-3.3 3.3z" data-color="2" data-darkreader-inline-fill="" style="--darkreader-inline-fill: #f09a6d;"></path>
+        <path opacity=".06" fill="#f09c70" d="M160.3 86.8h-47.1c-1.8 0-3.3-1.5-3.3-3.3 0-1.8 1.5-3.3 3.3-3.3h47.1c1.8 0 3.3 1.5 3.3 3.3.1 1.8-1.4 3.3-3.3 3.3z" data-color="2" data-darkreader-inline-fill="" style="--darkreader-inline-fill: #f09a6d;"></path>
+        <g opacity=".06">
+            <path d="M160.3 86.8h-47.1c-1.8 0-3.3-1.5-3.3-3.3 0-1.8 1.5-3.3 3.3-3.3h47.1c1.8 0 3.3 1.5 3.3 3.3.1 1.8-1.4 3.3-3.3 3.3z"></path>
+            <path opacity=".06" d="M160.3 86.8h-47.1c-1.8 0-3.3-1.5-3.3-3.3 0-1.8 1.5-3.3 3.3-3.3h47.1c1.8 0 3.3 1.5 3.3 3.3.1 1.8-1.4 3.3-3.3 3.3z"></path>
+        </g>
+        <path d="M159.8 84.9c0 12.703-10.297 23-23 23s-23-10.297-23-23 10.297-23 23-23 23 10.297 23 23z" fill="#f09c70" data-color="2" data-darkreader-inline-fill="" style="--darkreader-inline-fill: #f09a6d;"></path>
+        <path fill="#1a1a1a" d="M146.8 78.4c1.2 0 2.2.9 2.5 2 0-.2.1-.4.1-.6 0-1.4-1.2-2.6-2.6-2.6s-2.6 1.2-2.6 2.6c0 .2 0 .4.1.6.3-1.1 1.3-2 2.5-2z" data-color="4" data-darkreader-inline-fill="" style="--darkreader-inline-fill: #d8d4cf;"></path>
+        <path fill="#1a1a1a" d="M126.7 78.4c1.2 0 2.2.9 2.5 2 0-.2.1-.4.1-.6 0-1.4-1.2-2.6-2.6-2.6s-2.6 1.2-2.6 2.6c0 .2 0 .4.1.6.3-1.1 1.3-2 2.5-2z" data-color="4" data-darkreader-inline-fill="" style="--darkreader-inline-fill: #d8d4cf;"></path>
+        <path fill="#1a1a1a" d="M127.7 91c0 .1 0 .1 0 0 0 5.1 4.1 9.2 9.1 9.2s9.1-4.1 9.1-9.1V91h-18.2z" data-color="4" data-darkreader-inline-fill="" style="--darkreader-inline-fill: #d8d4cf;"></path>
+        <path fill="#c1272d" d="M132.6 99.2c1.3.7 2.7 1 4.2 1s2.9-.4 4.2-1c-1.1-1.1-2.5-1.8-4.2-1.8-1.7 0-3.2.7-4.2 1.8z" data-color="5" data-darkreader-inline-fill="" style="--darkreader-inline-fill: #db4d53;"></path>
+        <path opacity=".06" d="M136.8 83.6c1.2 0 2.2.9 2.5 2 0-.2.1-.4.1-.6 0-1.4-1.2-2.6-2.6-2.6s-2.6 1.2-2.6 2.6c0 .2 0 .4.1.6.2-1.2 1.2-2 2.5-2z"></path>
+        <path fill="#754c24" d="M137.1 61.2h-.8c-8.1.3-15.1 4.7-19 11.2 1.1.2 2.3.3 3.5.3 7.1 0 13.3-3.9 16.7-9.6 3.5 5 9.3 8.3 15.9 8.3.9 0 1.8-.1 2.7-.2-4.1-6-11.1-10-19-10z" data-color="3" data-darkreader-inline-fill="" style="--darkreader-inline-fill: #daaf86;"></path>
+        <path fill="#1a1a1a" d="M98.5 128.8H27.7l7.1-46.4C36.2 66.9 47.5 54 63.1 54 78.7 54 90 66.4 91.4 82.4l7.1 46.4z" data-color="4" data-darkreader-inline-fill="" style="--darkreader-inline-fill: #d8d4cf;"></path>
+        <path fill="#e25023" d="M106.4 146c-.1-19.4-19.4-35.1-43.2-35.1S20.1 126.6 20.1 146h86.3z" data-color="6" data-darkreader-inline-fill="" style="--darkreader-inline-fill: #e56138;"></path>
+        <path opacity=".15" d="M20.1 146h86.4c0-2.6-.4-5.1-1-7.6H21.1c-.7 2.4-1 5-1 7.6z"></path>
+        <path opacity=".15" d="M26.6 127.4h73.2c-3.4-4.5-8-8.2-13.5-11.1H40.1c-5.5 2.9-10.1 6.6-13.5 11.1z"></path>
+        <path fill="#f2c4a5" d="M77 112.7c-1.8-.5-3.6-.9-5.4-1.2v-9H54.9v9c-1.8.3-3.7.7-5.4 1.2v.1c0 7.6 6.2 13.8 13.8 13.8S77 120.4 77 112.7z" data-color="7" data-darkreader-inline-fill="" style="--darkreader-inline-fill: #efb893;"></path>
+        <path fill="#ffffff" d="M49.5 112.6a9.31 9.31 0 00-2.7 6.2c-.1 5 3.9 9.2 8.9 9.3 2.1 0 4-.6 5.6-1.8-6.7-.9-11.8-6.7-11.8-13.7z" data-color="8" data-darkreader-inline-fill="" style="--darkreader-inline-fill: #e8e6e3;"></path>
+        <path fill="#ffffff" d="M77 112.6c1.6 1.6 2.6 3.8 2.7 6.2.1 5-3.9 9.2-8.9 9.3-2.1 0-4-.6-5.6-1.8 6.7-.9 11.8-6.7 11.8-13.7z" data-color="8" data-darkreader-inline-fill="" style="--darkreader-inline-fill: #e8e6e3;"></path>
+        <path d="M64.1 131a.9.9 0 11-1.8 0 .9.9 0 011.8 0z" opacity=".15"></path>
+        <path d="M64.1 134.9a.9.9 0 11-1.8 0 .9.9 0 011.8 0z" opacity=".15"></path>
+        <path opacity=".1" d="M54.9 105.7h16.7v3.7s-3.2 1.2-9.3-.1-7.4-2.8-7.4-2.8v-.8z"></path>
+        <path fill="#f2c4a5" d="M86.7 86.8H39.5c-1.8 0-3.3-1.5-3.3-3.3 0-1.8 1.5-3.3 3.3-3.3h47.1c1.8 0 3.3 1.5 3.3 3.3.1 1.8-1.4 3.3-3.2 3.3z" data-color="7" data-darkreader-inline-fill="" style="--darkreader-inline-fill: #efb893;"></path>
+        <path opacity=".06" fill="#f2c4a5" d="M86.7 86.8H39.5c-1.8 0-3.3-1.5-3.3-3.3 0-1.8 1.5-3.3 3.3-3.3h47.1c1.8 0 3.3 1.5 3.3 3.3.1 1.8-1.4 3.3-3.2 3.3z" data-color="7" data-darkreader-inline-fill="" style="--darkreader-inline-fill: #efb893;"></path>
+        <g opacity=".06">
+            <path d="M86.7 86.8H39.5c-1.8 0-3.3-1.5-3.3-3.3 0-1.8 1.5-3.3 3.3-3.3h47.1c1.8 0 3.3 1.5 3.3 3.3.1 1.8-1.4 3.3-3.2 3.3z"></path>
+            <path opacity=".06" d="M86.7 86.8H39.5c-1.8 0-3.3-1.5-3.3-3.3 0-1.8 1.5-3.3 3.3-3.3h47.1c1.8 0 3.3 1.5 3.3 3.3.1 1.8-1.4 3.3-3.2 3.3z"></path>
+        </g>
+        <path d="M86 84.9c0 12.703-10.297 23-23 23s-23-10.297-23-23 10.297-23 23-23 23 10.297 23 23z" fill="#f2c4a5" data-color="7" data-darkreader-inline-fill="" style="--darkreader-inline-fill: #efb893;"></path>
+        <path opacity=".08" d="M63.3 85c1.2 0 2.2.9 2.5 2 0-.2.1-.4.1-.6 0-1.4-1.2-2.6-2.6-2.6s-2.6 1.2-2.6 2.6c0 .2 0 .4.1.6.3-1.1 1.3-2 2.5-2z"></path>
+        <path d="M77.6 79a1.1 1.1 0 11-2.2 0 1.1 1.1 0 012.2 0z" fill="#1a1a1a" data-color="4" data-darkreader-inline-fill="" style="--darkreader-inline-fill: #d8d4cf;"></path>
+        <path d="M51.1 79a1.1 1.1 0 11-2.2 0 1.1 1.1 0 012.2 0z" fill="#1a1a1a" data-color="4" data-darkreader-inline-fill="" style="--darkreader-inline-fill: #d8d4cf;"></path>
+        <path d="M73.7 86.1a.3.3 0 11-.6 0 .3.3 0 01.6 0z" opacity=".08"></path>
+        <path d="M75.8 84.8a.3.3 0 11-.6 0 .3.3 0 01.6 0z" opacity=".08"></path>
+        <path d="M71.6 84.8a.3.3 0 11-.6 0 .3.3 0 01.6 0z" opacity=".08"></path>
+        <path d="M53.5 86.1a.3.3 0 11-.6 0 .3.3 0 01.6 0z" opacity=".08"></path>
+        <path d="M55.6 84.8a.3.3 0 11-.6 0 .3.3 0 01.6 0z" opacity=".08"></path>
+        <path d="M51.4 84.8a.3.3 0 11-.6 0 .3.3 0 01.6 0z" opacity=".08"></path>
+        <path fill="#1a1a1a" d="M54.2 90.7c0 .1 0 .1 0 0 0 5.1 4.1 9.2 9.1 9.2s9.1-4.1 9.1-9.1v-.1H54.2z" data-color="4" data-darkreader-inline-fill="" style="--darkreader-inline-fill: #d8d4cf;"></path>
+        <path fill="#ffffff" d="M54.2 90.7c0 .1 0 .1 0 0 0 .8.1 1.5.2 2.1h17.8c.2-.7.2-1.3.2-2v-.1H54.2z" data-color="8" data-darkreader-inline-fill="" style="--darkreader-inline-fill: #e8e6e3;"></path>
+        <path fill="#c1272d" d="M59.1 98.9c1.3.7 2.7 1 4.2 1s2.9-.4 4.2-1c-1.1-1.1-2.5-1.8-4.2-1.8-1.7 0-3.2.7-4.2 1.8z" data-color="5" data-darkreader-inline-fill="" style="--darkreader-inline-fill: #db4d53;"></path>
+        <path fill="#1a1a1a" d="M69.2 66.9l2.5 7.8h13.9C81.6 66.3 73 60.5 63 60.5c-10 0-18.6 5.8-22.6 14.2h28.8v-7.8z" data-color="4" data-darkreader-inline-fill="" style="--darkreader-inline-fill: #d8d4cf;"></path>
+    </g>
+</svg>
