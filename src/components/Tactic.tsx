@@ -1,6 +1,15 @@
 import Image from "next/image";
 
-const Tactic = ({ tactic, idx }) => {
+type TacticProps = {
+  tactic: {
+    image: string;
+    title: string;
+    descriptionHtml: string;
+  };
+  idx: number;
+};
+
+const Tactic = ({ tactic, idx }: TacticProps) => {
   const { image, title, descriptionHtml } = tactic;
   return (
     <div

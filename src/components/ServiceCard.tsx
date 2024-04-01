@@ -1,6 +1,16 @@
 import Image from "next/image";
 
-const ServiceCard = ({ serviceInfo }) => {
+type ServiceCardProps = {
+  serviceInfo: {
+    image: string;
+    name: string;
+    price: number;
+    description: string;
+    level: string;
+  };
+};
+
+const ServiceCard = ({ serviceInfo }: ServiceCardProps) => {
   const { image, name, price, description, level } = serviceInfo;
   return (
     <div className="flex flex-col items-center w-56">

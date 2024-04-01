@@ -1,6 +1,19 @@
 import Image from "next/image";
 
-const TeacherCard = ({ teacher }) => {
+type TeacherCardProps = {
+  teacher: {
+    name: string;
+    title: string;
+    phone: string;
+    country: string;
+    city: string;
+    email: string;
+    languages: string;
+    image: string;
+  };
+};
+
+const TeacherCard = ({ teacher }: TeacherCardProps) => {
   const { name, title, phone, country, city, email, languages, image } =
     teacher;
   return (
