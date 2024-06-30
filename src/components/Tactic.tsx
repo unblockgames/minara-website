@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { useEffect, useRef } from "react";
 
 type TacticProps = {
   tactic: {
@@ -11,18 +12,19 @@ type TacticProps = {
 
 const Tactic = ({ tactic, idx }: TacticProps) => {
   const { image, title, descriptionHtml } = tactic;
+  const descriptionRef = useRef<HTMLParagraphElement>(null);
+  useEffect(() => {
+    descriptionRef.current!.innerHTML = descriptionHtml;
+  }, [descriptionHtml]);
   return (
     <div
       className={`flex flex-col items-center  gap-12 w-full h-full ${
         idx === 0 && "border-t border-black"
-      } px-28 py-20`}
+      } px-12 py-8 2xl:px-28 2xl:py-20`}
     >
       <Image src={image} alt="" width={100} height={100} />
       <p className="text-center font-semibold text-2xl">{title}</p>
-      <p
-        className="flex flex-col w-full gap-4"
-        dangerouslySetInnerHTML={{ __html: descriptionHtml }}
-      ></p>
+      <p className="flex flex-col w-full gap-4" ref={descriptionRef}></p>
       <style jsx>{`
         p {
         }

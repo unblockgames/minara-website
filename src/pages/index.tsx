@@ -14,17 +14,6 @@ const teachers = [
     city: "Austin, TX",
     email: "minara.beck@mail.ru",
   },
-
-  {
-    name: "Eva Makeeva",
-    languages: "English Russian",
-    image: "/images/eva_hero.webp",
-    title: "Teacher/Linguist",
-    phone: "+7 (919) 011-7266",
-    country: "Russia",
-    city: "Moscow",
-    email: "makeevaeva91@gmail.com",
-  },
 ];
 
 const services = [
@@ -150,13 +139,17 @@ const tactics = [
 
 export default function Home() {
   return (
-    <main className={`flex flex-col h-full w-full justify-center`}>
+    <main
+      className={`flex flex-col h-full w-screen justify-center overflow-hidden`}
+    >
       <section>
         <div className="flex flex-col items-center m-4">
-          <h1 className={`text-4xl`}>English German Russian</h1>
-          <h1 className={`text-4xl`}>classes with expert teachers!</h1>
+          <h1 className={`text-2xl md:text-4xl`}>English German Russian</h1>
+          <h1 className={`text-2xl md:text-4xl`}>
+            classes with expert teachers!
+          </h1>
           <hr className="w-10 h-1 bg-black my-8" />
-          <p className={`text-lg font-bold mb-6`}>
+          <p className={`md:text-lg font-bold mb-6`}>
             Become <u>fl</u>uent in a new language quickly and easily
           </p>
         </div>
@@ -167,12 +160,12 @@ export default function Home() {
         </div>
       </section>
       <section>
-        <div className="flex flex-col items-center bg-[#C9D6B5] mt-8">
-          <h2 className={`text-5xl m-8`}>Services</h2>
-          <p className="text-lg mb-12">
+        <div className="flex flex-col items-center bg-[#C9D6B5] mt-8 p-6">
+          <h2 className={`text-4xl md:text-5xl font-bold m-8`}>Services</h2>
+          <p className="md:text-lg mb-12">
             Our language courses are designed to be chosen by level
           </p>
-          <div className="flex gap-32 justify-center">
+          <div className="flex flex-col lg:flex-row gap-32 justify-center">
             {services.map((service, idx) => (
               <ServiceCard key={idx} serviceInfo={service} />
             ))}
@@ -180,15 +173,15 @@ export default function Home() {
         </div>
       </section>
       <section>
-        <div className="flex flex-col bg-[#AE582D] text-white items-center text-center">
-          <h2 className={`text-5xl m-8`}>
+        <div className="flex flex-col bg-[#AE582D] text-white items-center text-center p-6">
+          <h2 className={`text-3xl md:text-5xl font-bold mb-4`}>
             Book an Appointment
             <br />
             online/offline
             <br />
             24/7
           </h2>
-          <p className="w-[34rem] mb-20">
+          <p className="md:w-[34rem] mb-20">
             We will ensure that students learn proper grammar, writing, hearing,
             and reading comprehension. We are responsible for creating lesson
             plans to teach students the necessary skills. Programs are available
@@ -198,14 +191,14 @@ export default function Home() {
       </section>
       <section>
         <div className="flex flex-col items-center bg-[#C9D6B5] text-center relative overflow-x-clip">
-          <h2 className={`text-5xl m-8`}>
+          <h2 className={`font-bold text-2xl md:text-5xl m-8`}>
             Speak a new language in just
             <br />a few months!
           </h2>
-          <p className="font-semibold mb-10">Please follow these tactics:</p>
+          <p className="mb-10">Please follow these tactics:</p>
           <div className="z-1 bg-white absolute right-[-4rem] bottom-0">
             <Image
-              className="mt-24 ml-4"
+              className="mt-24 ml-4 hidden 2xl:block"
               src="/images/person_writing.webp"
               alt="person writing"
               width={400}
@@ -216,7 +209,7 @@ export default function Home() {
       </section>
       <section>
         <div>
-          <div className="grid grid-cols-3 divide-y divide-black divide-x">
+          <div className="grid grid-cols-1 lg:grid-cols-3 divide-y divide-black divide-x">
             {tactics.map((tactic, idx) => (
               <Tactic key={idx} idx={idx} tactic={tactic} />
             ))}
