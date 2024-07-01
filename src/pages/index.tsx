@@ -2,7 +2,7 @@ import ServiceCard from "@/components/ServiceCard";
 import Tactic from "@/components/Tactic";
 import TeacherCard from "@/components/TeacherCard";
 import Image from "next/image";
-import { useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { PopupButton } from "react-calendly";
 
 const teachers = [
@@ -140,20 +140,26 @@ const tactics = [
 ];
 
 export default function Home() {
-  const rootRef = useRef(null);
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
+
   return (
     <main
       id="root"
-      ref={rootRef}
       className={`flex flex-col h-full w-screen justify-center overflow-hidden relative`}
     >
-      <PopupButton
-        className="bg-orange-500 w-32 p-2 rounded-lg font-bold text-stone-100 shadow-sm shadow-slate-700 fixed bottom-0 right-0 m-8 z-[100]"
-        url="https://calendly.com/minara-beck/30min"
-        //@ts-ignore
-        rootElement={rootRef.current}
-        text="Let's Talk!"
-      />
+      {isClient && (
+        <PopupButton
+          className="bg-orange-500 w-32 p-2 rounded-lg font-bold text-stone-100 shadow-sm shadow-slate-700 fixed bottom-0 right-0 m-8 z-[100]"
+          url="https://calendly.com/minara-beck/30min"
+          //@ts-ignore
+          rootElement={document.getElementById("root")}
+          text="Let's Talk!"
+        />
+      )}
       <section>
         <div className="flex flex-col items-center m-4">
           <h1 className={`text-2xl md:text-4xl`}>English German Russian</h1>
